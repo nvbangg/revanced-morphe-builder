@@ -542,7 +542,7 @@ build_rv() {
 		return 0
 	fi
 	local list_patches
-	list_patches=$(java -jar "$cli_jar" list-patches "$patches_jar" -f "$pkg_name" -v -p 2>&1)
+	list_patches=$(java -jar "$cli_jar" list-patches --patches "$patches_jar" -f "$pkg_name" -v -p 2>&1)
 
 	local get_latest_ver=false
 	if [ "$version_mode" = auto ]; then

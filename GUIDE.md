@@ -44,6 +44,7 @@
 - Photomath ReVanced: `photomath-revanced`
 - Gboard: `gboard`
 - Google Recorder: `google-recorder`
+- SoundCloud HooDles: `soundcloud-hoo-dles`
 - SoundCloud DeReVanced: `soundcloud-rookieenough`
 - SoundCloud ReVanced: `soundcloud-revanced`
 - Pandora: `pandora`
@@ -59,11 +60,17 @@
 - ibis Paint X: `ibis-paint-x`
 - RAR: `rar`
 - Sofascore: `sofascore`
-- FotMob: `fotmob`
 - Windy: `windy`
 - Proton VPN: `proton-vpn`
 - Proton Mail: `proton-mail`
 - Pixiv: `pixiv`
 - Inshorts: `inshorts`
+- Letterboxd: `letterboxd`
 - Mimo: `mimo`
 - Solid Explorer: `solid-explorer`
+- FotMob: `fotmob`
+- Meme Generator: `meme-generator`
+- HelloChinese: `hellochinese`
+- Geocaching: `geocaching`
+- Komoot: `komoot`
+- Mapy: `mapy`

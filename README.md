@@ -2,16 +2,14 @@
 
 > [!NOTE]
 > Automated builds and app info updates for ReVanced, Morphe & many other patches (updated daily).     
-> ⭐ The first build per app is recommended. Expand to view details.   
+> ⭐ The first build per app is recommended. Expand to view patch details.   
 > ⬇️ Easily install and update apps (APK) with [Obtainium](https://github.com/ImranR98/Obtainium/releases): [See Guide](GUIDE.md)    
 > 📦 Root modules (.zip) and arm-v7a builds are available in each app's release link.    
 
 <div align="center">
 
-[![Releases](https://img.shields.io/github/downloads/nvbangg/revanced-morphe-builder/total?label=Releases%20%E2%80%A2%20Downloads&logo=github)](../../releases) [![License](https://img.shields.io/github/license/nvbangg/revanced-morphe-builder?label=License&logo=github)](../../blob/main/LICENSE)
-
-[![Stars](https://img.shields.io/github/stars/nvbangg/revanced-morphe-builder?label=Star%20this%20repo%20if%20useful%20⭐&logo=github)](https://github.com/nvbangg/revanced-morphe-builder) &ensp; [![Donate](https://img.shields.io/badge/Support%20this%20project-pink?style=social&logo=github-sponsors)](https://nvbangg.github.io/#donate)
-<br>👉 Other Tools: [nvbangg-tools](https://github.com/nvbangg/nvbangg-tools)
+[![Releases](https://img.shields.io/github/downloads/nvbangg/revanced-morphe-builder/total?style=social&label=Releases%20%E2%80%A2%20Downloads&logo=github)](https://github.com/nvbangg/revanced-morphe-builder/releases) &ensp; [![Stars](https://img.shields.io/github/stars/nvbangg/revanced-morphe-builder?label=Star%20this%20repo%20if%20useful%20⭐&logo=github)](https://github.com/nvbangg/revanced-morphe-builder) &ensp; [![Donate](https://img.shields.io/badge/Support%20this%20project-pink?style=social&logo=github-sponsors)](https://nvbangg.github.io/#donate) <br>
+[![Other Tools](https://img.shields.io/badge/%F0%9F%91%89%20Other%20Tools-nvbangg--tools-blue)](https://github.com/nvbangg/nvbangg-tools)
 </div> 
 
 ---
@@ -692,7 +690,7 @@ Patches: ReVanced/patches-6.1.0.rvp
 ### [SoundCloud](https://play.google.com/store/apps/details?id=com.soundcloud.android)
 
 <details>
-<summary id="SoundCloud-DeReVanced">&ensp;<a href="../../releases/download/36/soundcloud-rookieenough-v2025.05.27-release-arm64-v8a.apk"><img src="https://img.shields.io/badge/DeReVanced-v2025.05.27.release-gray?labelColor=FF5500&logo=SoundCloud&logoColor=white"></a></summary>
+<summary id="SoundCloud-HooDles">&ensp;<a href="../../releases/download/36/soundcloud-rookieenough-v2025.05.27-release-arm64-v8a.apk"><img src="https://img.shields.io/badge/HooDles-v2025.05.27.release-gray?labelColor=FF5500&logo=SoundCloud&logoColor=white"></a></summary>
 <blockquote>
 
 [Release 2026-03-25](../../releases/tag/36)<br>
@@ -704,6 +702,18 @@ Patches: RookieEnough/patches-1.0.1.mpp
 </details>
 
 **Other builds:**
+
+<details>
+<summary id="SoundCloud-DeReVanced">&ensp;<a href="../../releases/download/36/soundcloud-rookieenough-v2025.05.27-release-arm64-v8a.apk"><img src="https://img.shields.io/badge/DeReVanced-v2025.05.27.release-gray?labelColor=FF5500&logo=SoundCloud&logoColor=white"></a></summary>
+<blockquote>
+
+[Release 2026-03-25](../../releases/tag/36)<br>
+Patches: RookieEnough/patches-1.0.1.mpp
+- Disable telemetry
+- Enable offline sync
+- Hide ads
+</blockquote>
+</details>
 
 <details>
 <summary id="SoundCloud-ReVanced">&ensp;<a href="../../releases/download/31/soundcloud-revanced-v2025.05.27-release-arm64-v8a.apk"><img src="https://img.shields.io/badge/ReVanced-v2025.05.27.release-gray?labelColor=FF5500&logo=SoundCloud&logoColor=white"></a></summary>
@@ -913,20 +923,6 @@ Patches: hoo-dles/patches-1.15.0.mpp
 
 ---
 
-### [FotMob](https://play.google.com/store/apps/details?id=com.mobilefootie.wc2010)
-
-<details>
-<summary id="FotMob">&ensp;<a href="../../releases/download/36/fotmob-hoo-dles-v226.16092.20260302-arm64-v8a.apk"><img src="https://img.shields.io/badge/FotMob-v226.16092.20260302-gray?labelColor=26A65B&logo=botmob&logoColor=white"></a></summary>
-<blockquote>
-
-[Release 2026-03-25](../../releases/tag/36)<br>
-Patches: hoo-dles/patches-1.15.0.mpp
-- Enable FotMob+
-</blockquote>
-</details>
-
----
-
 ### [Windy](https://play.google.com/store/apps/details?id=com.windyty.android)
 
 <details>
@@ -1000,6 +996,20 @@ Patches: RookieEnough/patches-1.0.1.mpp
 
 ---
 
+### [Letterboxd](https://play.google.com/store/apps/details?id=com.letterboxd.letterboxd)
+
+<details>
+<summary id="Letterboxd">&ensp;<a href="../../releases/download/36/letterboxd-rookieenough-v0.0-arm64-v8a.apk"><img src="https://img.shields.io/badge/Letterboxd-v0.0-gray?labelColor=14181D&logo=Letterboxd&logoColor=white"></a></summary>
+<blockquote>
+
+Patches: RookieEnough/patches-1.0.1.mpp
+
+</blockquote>
+</details>
+
+
+---
+
 ### [Mimo](https://play.google.com/store/apps/details?id=com.getmimo)
 
 <details>
@@ -1030,9 +1040,83 @@ Patches: hoo-dles/patches-1.15.0.mpp
 
 ---
 
+### [FotMob](https://play.google.com/store/apps/details?id=com.mobilefootie.wc2010)
+
+<details>
+<summary id="FotMob">&ensp;<a href="../../releases/download/36/fotmob-hoo-dles-v226.16092.20260302-arm64-v8a.apk"><img src="https://img.shields.io/badge/FotMob-v226.16092.20260302-gray?labelColor=26A65B&logo=botmob&logoColor=white"></a></summary>
+<blockquote>
+
+[Release 2026-03-25](../../releases/tag/36)<br>
+Patches: hoo-dles/patches-1.15.0.mpp
+- Enable FotMob+
+</blockquote>
+</details>
+
+---
+
+### [Meme Generator](https://play.google.com/store/apps/details?id=net.zombodroid.MemeGenerator)
+
+<details>
+<summary id="Meme-Generator">&ensp;<a href="../../releases/download/36/meme-generator-hoo-dles-v0.0-arm64-v8a.apk"><img src="https://img.shields.io/badge/Meme_Generator-v0.0-gray?labelColor=D21F3C&logo=meme-generator&logoColor=white"></a></summary>
+<blockquote>
+
+Patches: hoo-dles/morphe-patches
+</blockquote>
+</details>
+
+---
+
+### [HelloChinese](https://play.google.com/store/apps/details?id=com.hellochinese)
+
+<details>
+<summary id="HelloChinese">&ensp;<a href="../../releases/download/36/hellochinese-hoo-dles-v0.0-arm64-v8a.apk"><img src="https://img.shields.io/badge/HelloChinese-v0.0-gray?labelColor=00AFA9&logo=hellochinese&logoColor=white"></a></summary>
+<blockquote>
+
+Patches: hoo-dles/morphe-patches
+</blockquote>
+</details>
+
+---
+
+### [Geocaching](https://play.google.com/store/apps/details?id=com.groundspeak.geocaching.intro)
+
+<details>
+<summary id="Geocaching">&ensp;<a href="../../releases/download/36/geocaching-brosssh-v0.0-arm64-v8a.apk"><img src="https://img.shields.io/badge/Geocaching-v0.0-gray?labelColor=4A742C&logo=geocaching&logoColor=white"></a></summary>
+<blockquote>
+
+Patches: brosssh/morphe-patches
+</blockquote>
+</details>
+
+---
+
+### [Komoot](https://play.google.com/store/apps/details?id=de.komoot.android)
+
+<details>
+<summary id="Komoot">&ensp;<a href="../../releases/download/36/komoot-brosssh-v0.0-arm64-v8a.apk"><img src="https://img.shields.io/badge/Komoot-v0.0-gray?labelColor=6AA127&logo=komoot&logoColor=white"></a></summary>
+<blockquote>
+
+Patches: brosssh/morphe-patches
+</blockquote>
+</details>
+
+---
+
+### [Mapy](https://play.google.com/store/apps/details?id=cz.seznam.mapy)
+
+<details>
+<summary id="Mapy">&ensp;<a href="../../releases/download/36/mapy-brosssh-v0.0-arm64-v8a.apk"><img src="https://img.shields.io/badge/Mapy-v0.0-gray?labelColor=3FB819&logo=mapy&logoColor=white"></a></summary>
+<blockquote>
+
+Patches: brosssh/morphe-patches
+</blockquote>
+</details>
+
+---
+
 ## 🙏 Credits
 - Patches used in this repository:
 
-[![ReVanced](https://img.shields.io/github/license/ReVanced/revanced-patches?label=ReVanced)](https://github.com/ReVanced/revanced-patches) [![MorpheApp](https://img.shields.io/github/license/MorpheApp/morphe-patches?label=MorpheApp)](https://github.com/MorpheApp/morphe-patches) [![hoo-dles](https://img.shields.io/github/license/hoo-dles/morphe-patches?label=hoo-dles)](https://github.com/hoo-dles/morphe-patches) [![RookieEnough](https://img.shields.io/github/license/RookieEnough/De-ReVanced?label=RookieEnough)](https://github.com/RookieEnough/De-ReVanced) [![anddea](https://img.shields.io/github/license/anddea/revanced-patches?label=anddea)](https://github.com/anddea/revanced-patches) [![Aunali321](https://img.shields.io/github/license/Aunali321/ReVancedExperiments?label=Aunali321)](https://github.com/Aunali321/ReVancedExperiments) [![crimera](https://img.shields.io/github/license/crimera/piko?label=crimera)](https://github.com/crimera/piko) [![jkennethcarino](https://img.shields.io/github/license/jkennethcarino/adobo?label=jkennethcarino)](https://github.com/jkennethcarino/adobo) 
+[![ReVanced](https://img.shields.io/github/license/ReVanced/revanced-patches?label=ReVanced)](https://github.com/ReVanced/revanced-patches) [![MorpheApp](https://img.shields.io/github/license/MorpheApp/morphe-patches?label=MorpheApp)](https://github.com/MorpheApp/morphe-patches) [![hoo-dles](https://img.shields.io/github/license/hoo-dles/morphe-patches?label=hoo-dles)](https://github.com/hoo-dles/morphe-patches) [![RookieEnough](https://img.shields.io/github/license/RookieEnough/De-ReVanced?label=RookieEnough)](https://github.com/RookieEnough/De-ReVanced) [![anddea](https://img.shields.io/github/license/anddea/revanced-patches?label=anddea)](https://github.com/anddea/revanced-patches) [![brosssh](https://img.shields.io/github/license/brosssh/morphe-patches?label=brosssh)](https://github.com/brosssh/morphe-patches) [![Aunali321](https://img.shields.io/github/license/Aunali321/ReVancedExperiments?label=Aunali321)](https://github.com/Aunali321/ReVancedExperiments) [![crimera](https://img.shields.io/github/license/crimera/piko?label=crimera)](https://github.com/crimera/piko) [![jkennethcarino](https://img.shields.io/github/license/jkennethcarino/adobo?label=jkennethcarino)](https://github.com/jkennethcarino/adobo) 
 
 - Template generated from [j-hc/revanced-magisk-module](https://github.com/j-hc/revanced-magisk-module)

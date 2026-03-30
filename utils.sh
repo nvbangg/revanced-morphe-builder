@@ -517,13 +517,9 @@ patch_apk() {
 
 	if [ "$OS" = Android ]; then cmd+=" --custom-aapt2-binary='${AAPT2}'"; fi
 	
-	local patch_tmp_dir="$TEMP_DIR/rvtmp_$RANDOM"
-	mkdir -p "$patch_tmp_dir"
-	cmd="_JAVA_OPTIONS='-Djava.io.tmpdir=$patch_tmp_dir' $cmd"
 	pr "$cmd"
 	PATCH_OUTPUT=$(eval "$cmd" 2>&1)
 	local ret=$?
-	rm -rf "$patch_tmp_dir"
 	echo "$PATCH_OUTPUT"
 	if [ $ret -eq 0 ]; then [ -f "$patched_apk" ]; else
 		rm "$patched_apk" 2>/dev/null || :
@@ -539,6 +535,18 @@ check_sig() {
 		echo "$pkg_name signature: ${sig}"
 		grep -qFx "$sig $pkg_name" sig.txt
 	fi
+}
+
+write_build_json_info() {
+	local key=$1 app_name=$2 rv_brand=$3 version=$4 patches=$5
+	jq --arg key "$key" \
+		--arg app_name "$app_name" \
+		--arg rv_brand "$rv_brand" \
+		--arg version "$version" \
+		--arg patches "$patches" \
+		--argjson applied "$(echo "$PATCH_OUTPUT" | grep -oP 'INFO: "\K[^"]+(?=" succeeded)' | jq -R -s -c 'split("\n") | map(select(length > 0))')" \
+		'if has($key) then . else .[$key] = {app_name: $app_name, rv_brand: $rv_brand, version: $version, patches: $patches, applied_patches: $applied} end' \
+		"$BUILD_JSON_FILE" > "${BUILD_JSON_FILE}.tmp" && mv "${BUILD_JSON_FILE}.tmp" "$BUILD_JSON_FILE"
 }
 
 build_rv() {
@@ -694,15 +702,7 @@ build_rv() {
 			local apk_output="${BUILD_DIR}/${app_name_l}-${rv_brand_f}-v${version_f}-${arch_f}.apk"
 			mv -f "$patched_apk" "$apk_output"
 			pr "Built ${table} (non-root): '${apk_output}'"
-			# Write build info to build.json
-			jq --arg key "$table" \
-				--arg app_name "$app_name_l" \
-				--arg rv_brand "$rv_brand_f" \
-				--arg version "$version_f" \
-				--arg patches "${args[patches_src]%%/*}/${patches_jar##*/}" \
-				--argjson applied "$(echo "$PATCH_OUTPUT" | grep -oP 'INFO: "\K[^"]+(?=" succeeded)' | jq -R -s -c 'split("\n") | map(select(length > 0))')" \
-				'if has($key) then . else .[$key] = {app_name: $app_name, rv_brand: $rv_brand, version: $version, patches: $patches, applied_patches: $applied} end' \
-				"$BUILD_JSON_FILE" > "${BUILD_JSON_FILE}.tmp" && mv "${BUILD_JSON_FILE}.tmp" "$BUILD_JSON_FILE"
+			write_build_json_info "$table" "$app_name_l" "$rv_brand_f" "$version_f" "${args[patches_src]%%/*}/${patches_jar##*/}"
 			continue
 		fi
 		local base_template
@@ -729,6 +729,9 @@ build_rv() {
 		zip -"$COMPRESSION_LEVEL" -FSqr "${CWD}/${BUILD_DIR}/${module_output}" .
 		popd >/dev/null || :
 		pr "Built ${table} (root): '${BUILD_DIR}/${module_output}'"
+		if [ "$mode_arg" = module ]; then
+			write_build_json_info "$table" "$app_name_l" "$rv_brand_f" "$version_f" "${args[patches_src]%%/*}/${patches_jar##*/}"
+		fi
 	done
 	log "${table}: ${version}"
 }

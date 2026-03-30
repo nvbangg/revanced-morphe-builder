@@ -14,10 +14,10 @@
 ### In step 3, Enter the expression for the app you want below:
 
 - YouTube: `youtube-nvbangg`
-- YouTube Morphe: `youtube-morphe`
+- YouTube Morphe: `youtube-morpheapp`
 - YouTube ReVanced: `youtube-revanced`
 - YouTube Anddea: `youtube-anddea`
-- YouTube Music Morphe: `youtube-music-morphe`
+- YouTube Music Morphe: `youtube-music-morpheapp`
 - YouTube Music ReVanced: `youtube-music-revanced`
 - YouTube Music Anddea: `youtube-music-anddea`
 - Google Photos DeReVanced: `google-photos-rookieenough`
@@ -38,7 +38,7 @@
 - Duolingo: `duolingo`
 - Cake: `cake`
 - Twitch: `twitch`
-- Reddit Morphe: `reddit-morphe`
+- Reddit Morphe: `reddit-morpheapp`
 - Reddit Anddea: `reddit-anddea`
 - Photomath DeReVanced: `photomath-rookieenough`
 - Photomath ReVanced: `photomath-revanced`

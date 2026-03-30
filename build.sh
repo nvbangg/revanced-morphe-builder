@@ -87,7 +87,7 @@ for table_name in $(toml_get_table_names); do
 	app_args[cli]=$cli_jar
 	app_args[ptjar]=$patches_jar
 	app_args[patches_src]=$patches_src
-	app_args[rv_brand]=$(toml_get "$t" rv-brand) || app_args[rv_brand]=$DEF_RV_BRAND
+	app_args[rv_brand]=$(toml_get "$t" rv-brand) || app_args[rv_brand]="${patches_src%%/*}"
 
 	app_args[excluded_patches]=$(toml_get "$t" excluded-patches) || app_args[excluded_patches]=""
 	if [ -n "${app_args[excluded_patches]}" ] && [[ ${app_args[excluded_patches]} != *'"'* ]]; then abort "patch names inside excluded-patches must be quoted"; fi

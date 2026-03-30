@@ -24,7 +24,7 @@ dpi = "nodpi anydpi 120-640dpi"      # dpi packages to be searched in order. def
 patches-source = "revanced/revanced-patches" # where to fetch patches bundle from. default: "revanced/revanced-patches"
 cli-source = "ReVanced/revanced-cli"             # where to fetch cli from. default: "ReVanced/revanced-cli"
 # options like cli-source can also set per app
-rv-brand = "ReVanced Extended" # rebrand from 'ReVanced' to something different. default: "ReVanced"
+rv-brand = "ReVanced Extended" # rebrand from 'ReVanced' to something different. default: patches-source owner
 
 patches-version = "v2.160.0" # 'latest', 'dev', or a version number. default: "latest"
 cli-version = "v5.0.0"       # 'latest', 'dev', or a version number. default: "latest"

@@ -1,58 +1,68 @@
 Cake (arm64-v8a): 6.4.0  
 Cake (arm-v7a): 6.4.0  
-Cricbuzz (arm64-v8a): 6.24.01  
-Cricbuzz (arm-v7a): 6.24.01  
-Disney (arm64-v8a): 26.3.0+rc4-2026.03.12  
-Disney (arm-v7a): 26.3.0+rc4-2026.03.12  
 Duolingo (arm64-v8a): 6.66.5  
 Duolingo (arm-v7a): 6.66.5  
 FotMob (arm64-v8a): 226.16092.20260302  
 FotMob (arm-v7a): 226.16092.20260302  
-Google-Photos (arm64-v8a): 7.68.0.884121604  
-Google-Photos (arm-v7a): 7.68.0.884121604  
-Inshorts (arm64-v8a): 6.12.7  
-Inshorts (arm-v7a): 6.12.7  
-Messenger (arm64-v8a): 552.0.0.44.65  
+KakaoTalk (arm64-v8a): 26.2.2  
+KakaoTalk (arm-v7a): 26.2.2  
+Komoot (arm64-v8a): 2025.38.2  
+Komoot (arm-v7a): 2025.38.2  
+Mapy (arm64-v8a): 9.70.1  
+Mapy (arm-v7a): 9.70.1  
+Meme-Generator (arm64-v8a): 4.6671  
+Meme-Generator (arm-v7a): 4.6671  
 Mimo (arm64-v8a): 9.0  
 Mimo (arm-v7a): 9.0  
 MyFitnessPal (arm64-v8a): 25.50.0  
 MyFitnessPal (arm-v7a): 25.50.0  
-Photomath (arm64-v8a): 8.47.1  
-Photomath (arm-v7a): 8.47.1  
-Pixiv (arm64-v8a): 6.141.1  
-Pixiv (arm-v7a): 6.141.1  
-Proton-Mail (arm64-v8a): 4.15.0  
-Proton-Mail (arm-v7a): 4.15.0  
 Proton-VPN (arm64-v8a): 5.16.83.0  
 Proton-VPN (arm-v7a): 5.16.83.0  
-RAR (arm64-v8a): 7.20.build131  
-RAR (arm-v7a): 7.20.build131  
+Reddit-Anddea (arm64-v8a): 2025.12.1  
+Reddit-Anddea (arm-v7a): 2025.12.1  
+Reddit-Morphe (arm64-v8a): 2026.04.0  
+Reddit-Morphe (arm-v7a): 2026.04.0  
 Sofascore (arm64-v8a): 25.12.17  
 Sofascore (arm-v7a): 25.12.17  
 Solid-Explorer (arm64-v8a): 3.4.1  
 Solid-Explorer (arm-v7a): 3.4.1  
-SoundCloud (arm64-v8a): 2025.05.27-release  
-SoundCloud (arm-v7a): 2025.05.27-release  
-Strava (arm64-v8a): 455.11  
-Strava (arm-v7a): 455.11  
-Tumblr (arm64-v8a): 43.8.0.107  
-Tumblr (arm-v7a): 43.8.0.107  
+SoundCloud-HooDles (arm64-v8a): 2026.03.20-release  
+SoundCloud-HooDles (arm-v7a): 2026.03.20-release  
 WPS-Office (arm64-v8a): 18.12.1  
 WPS-Office (arm-v7a): 18.12.1  
 Wallcraft (arm64-v8a): 3.61.01  
 Wallcraft (arm-v7a): 3.61.01  
 Windy (arm64-v8a): 49.0.1  
 Windy (arm-v7a): 49.0.1  
+YouTube (arm64-v8a): 20.45.36  
+YouTube (arm-v7a): 20.45.36  
+YouTube-Anddea (arm64-v8a): 20.05.46  
+YouTube-Anddea (arm-v7a): 20.05.46  
+YouTube-Morphe (arm64-v8a): 20.45.36  
+YouTube-Morphe (arm-v7a): 20.45.36  
+YouTube-Music-Anddea (arm64-v8a): 8.30.54  
+YouTube-Music-Anddea (arm-v7a): 8.30.54  
+YouTube-Music-Morphe (arm64-v8a): 8.44.54  
+YouTube-Music-Morphe (arm-v7a): 8.44.54  
 
   
-Patches: hoo-dles/patches-1.15.0.mpp  
-[Changelog](https://github.com/hoo-dles/morphe-patches/releases/tag/v1.15.0)
+Patches: AmpleReVanced/patches-1.0.0-dev.5.mpp  
+[Changelog](https://github.com/AmpleReVanced/revanced-patches/releases/tag/v1.0.0-dev.5)
 
-Patches: RookieEnough/patches-1.0.1.mpp  
-[Changelog](https://github.com/RookieEnough/De-ReVanced/releases/tag/v1.0.1)  
+Patches: anddea/patches-4.0.0.mpp  
+[Changelog](https://github.com/anddea/revanced-patches/releases/tag/v4.0.0)
+
+Patches: brosssh/patches-2.1.0.mpp  
+[Changelog](https://github.com/brosssh/morphe-patches/releases/tag/v2.1.0)
+
+Patches: hoo-dles/patches-1.16.0.mpp  
+[Changelog](https://github.com/hoo-dles/morphe-patches/releases/tag/v1.16.0)
+
+Patches: MorpheApp/patches-1.22.0.mpp  
+[Changelog](https://github.com/MorpheApp/morphe-patches/releases/tag/v1.22.0)  
 
 Skipped:  
+Patches: RookieEnough/patches-1.0.1.mpp  
 Patches: jkennethcarino/patches-1.0.0.mpp    
-Patches: MorpheApp/patches-1.21.1.mpp  
 Patches: Aunali321/patches-2.0.0.rvp  
-Patches: crimera/patches-3.1.0.mpp    
+Patches: crimera/patches-3.1.0.mpp      

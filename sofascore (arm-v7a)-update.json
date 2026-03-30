@@ -1,6 +1,6 @@
 {
-  "version": "v25.12.17 (patches 1.15.0.mpp)",
-  "versionCode": 36,
-  "zipUrl": "https://github.com/nvbangg/revanced-morphe-builder/releases/download/36/sofascore-hoo-dles-module-v25.12.17-arm-v7a.zip",
+  "version": "v25.12.17 (patches 1.16.0.mpp)",
+  "versionCode": 37,
+  "zipUrl": "https://github.com/nvbangg/revanced-morphe-builder/releases/download/37/sofascore-hoo-dles-module-v25.12.17-arm-v7a.zip",
   "changelog": "https://raw.githubusercontent.com/nvbangg/revanced-morphe-builder/update/build.md"
 }

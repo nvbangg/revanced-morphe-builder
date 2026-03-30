@@ -1,6 +1,6 @@
 {
-  "version": "v9.0 (patches 1.15.0.mpp)",
-  "versionCode": 36,
-  "zipUrl": "https://github.com/nvbangg/revanced-morphe-builder/releases/download/36/mimo-hoo-dles-module-v9.0-arm-v7a.zip",
+  "version": "v9.0 (patches 1.16.0.mpp)",
+  "versionCode": 37,
+  "zipUrl": "https://github.com/nvbangg/revanced-morphe-builder/releases/download/37/mimo-hoo-dles-module-v9.0-arm-v7a.zip",
   "changelog": "https://raw.githubusercontent.com/nvbangg/revanced-morphe-builder/update/build.md"
 }

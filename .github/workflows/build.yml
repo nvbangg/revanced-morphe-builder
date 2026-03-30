@@ -82,6 +82,12 @@ jobs:
           tag: ${{ steps.next_ver_code.outputs.NEXT_VER_CODE }}
           file_glob: true
           overwrite: true
+          draft: true
+
+      - name: Publish release
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: gh release edit ${{ steps.next_ver_code.outputs.NEXT_VER_CODE }} --draft=false
 
       - name: Update changelog and update json
         id: update_config

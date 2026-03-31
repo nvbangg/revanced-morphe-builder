@@ -1,68 +1,80 @@
-Cake (arm64-v8a): 6.4.0  
-Cake (arm-v7a): 6.4.0  
-Duolingo (arm64-v8a): 6.66.5  
-Duolingo (arm-v7a): 6.66.5  
-FotMob (arm64-v8a): 226.16092.20260302  
-FotMob (arm-v7a): 226.16092.20260302  
-KakaoTalk (arm64-v8a): 26.2.2  
-KakaoTalk (arm-v7a): 26.2.2  
-Komoot (arm64-v8a): 2025.38.2  
-Komoot (arm-v7a): 2025.38.2  
-Mapy (arm64-v8a): 9.70.1  
-Mapy (arm-v7a): 9.70.1  
-Meme-Generator (arm64-v8a): 4.6671  
-Meme-Generator (arm-v7a): 4.6671  
-Mimo (arm64-v8a): 9.0  
-Mimo (arm-v7a): 9.0  
-MyFitnessPal (arm64-v8a): 25.50.0  
-MyFitnessPal (arm-v7a): 25.50.0  
-Proton-VPN (arm64-v8a): 5.16.83.0  
-Proton-VPN (arm-v7a): 5.16.83.0  
-Reddit-Anddea (arm64-v8a): 2025.12.1  
-Reddit-Anddea (arm-v7a): 2025.12.1  
-Reddit-Morphe (arm64-v8a): 2026.04.0  
-Reddit-Morphe (arm-v7a): 2026.04.0  
-Sofascore (arm64-v8a): 25.12.17  
-Sofascore (arm-v7a): 25.12.17  
-Solid-Explorer (arm64-v8a): 3.4.1  
-Solid-Explorer (arm-v7a): 3.4.1  
-SoundCloud-HooDles (arm64-v8a): 2026.03.20-release  
-SoundCloud-HooDles (arm-v7a): 2026.03.20-release  
-WPS-Office (arm64-v8a): 18.12.1  
-WPS-Office (arm-v7a): 18.12.1  
-Wallcraft (arm64-v8a): 3.61.01  
-Wallcraft (arm-v7a): 3.61.01  
-Windy (arm64-v8a): 49.0.1  
-Windy (arm-v7a): 49.0.1  
-YouTube (arm64-v8a): 20.45.36  
-YouTube (arm-v7a): 20.45.36  
-YouTube-Anddea (arm64-v8a): 20.05.46  
-YouTube-Anddea (arm-v7a): 20.05.46  
-YouTube-Morphe (arm64-v8a): 20.45.36  
-YouTube-Morphe (arm-v7a): 20.45.36  
-YouTube-Music-Anddea (arm64-v8a): 8.30.54  
-YouTube-Music-Anddea (arm-v7a): 8.30.54  
-YouTube-Music-Morphe (arm64-v8a): 8.44.54  
-YouTube-Music-Morphe (arm-v7a): 8.44.54  
+Cricbuzz-DeReVanced (arm64-v8a.apk): 6.24.01  
+Cricbuzz-DeReVanced (arm64-v8a.zip): 6.24.01  
+Cricbuzz-DeReVanced (arm-v7a.apk): 6.24.01  
+Cricbuzz-DeReVanced (arm-v7a.zip): 6.24.01  
+Disney-DeReVanced (arm64-v8a.apk): 26.4.0+rc4-2026.03.25  
+Disney-DeReVanced (arm64-v8a.zip): 26.4.0+rc4-2026.03.25  
+Disney-DeReVanced (arm-v7a.apk): 26.4.0+rc4-2026.03.25  
+Disney-DeReVanced (arm-v7a.zip): 26.4.0+rc4-2026.03.25  
+Gboard (arm64-v8a.apk): 17.0.12.880768217-release-arm64-v8a  
+Gboard (arm64-v8a.zip): 17.0.12.880768217-release-arm64-v8a  
+Google-Photos-DeReVanced (arm64-v8a.apk): 7.69.0.890655694  
+Google-Photos-DeReVanced (arm64-v8a.zip): 7.69.0.890655694  
+Google-Photos-DeReVanced (arm-v7a.apk): 7.69.0.890655694  
+Google-Photos-DeReVanced (arm-v7a.zip): 7.69.0.890655694  
+Inshorts (arm64-v8a.apk): 6.12.8  
+Inshorts (arm64-v8a.zip): 6.12.8  
+Instagram-Piko (arm64-v8a.apk): 424.0.0.0.46  
+Instagram-Piko (arm64-v8a.zip): 424.0.0.0.46  
+Instagram-Piko (arm-v7a.apk): 424.0.0.0.46  
+Instagram-Piko (arm-v7a.zip): 424.0.0.0.46  
+KakaoTalk (arm64-v8a.apk): 26.2.2  
+KakaoTalk (arm64-v8a.zip): 26.2.2  
+KakaoTalk (arm-v7a.apk): 26.2.2  
+KakaoTalk (arm-v7a.zip): 26.2.2  
+Letterboxd (arm64-v8a.apk): 3.5.0  
+Letterboxd (arm64-v8a.zip): 3.5.0  
+Letterboxd (arm-v7a.apk): 3.5.0  
+Letterboxd (arm-v7a.zip): 3.5.0  
+Photomath-DeReVanced (arm64-v8a.apk): 8.47.1  
+Photomath-DeReVanced (arm64-v8a.zip): 8.47.1  
+Photomath-DeReVanced (arm-v7a.apk): 8.47.1  
+Photomath-DeReVanced (arm-v7a.zip): 8.47.1  
+Pixiv (arm64-v8a.apk): 6.141.1  
+Pixiv (arm64-v8a.zip): 6.141.1  
+Pixiv (arm-v7a.apk): 6.141.1  
+Pixiv (arm-v7a.zip): 6.141.1  
+Proton-Mail (arm64-v8a.apk): 4.15.0  
+Proton-Mail (arm64-v8a.zip): 4.15.0  
+Proton-Mail (arm-v7a.apk): 4.15.0  
+Proton-Mail (arm-v7a.zip): 4.15.0  
+RAR (arm64-v8a.apk): 7.20.build131  
+RAR (arm64-v8a.zip): 7.20.build131  
+RAR (arm-v7a.apk): 7.20.build131  
+RAR (arm-v7a.zip): 7.20.build131  
+SoundCloud-DeReVanced (arm64-v8a.apk): 2025.05.27-release  
+SoundCloud-DeReVanced (arm64-v8a.zip): 2025.05.27-release  
+SoundCloud-DeReVanced (arm-v7a.apk): 2025.05.27-release  
+SoundCloud-DeReVanced (arm-v7a.zip): 2025.05.27-release  
+Strava-DeReVanced (arm64-v8a.apk): 455.11  
+Strava-DeReVanced (arm64-v8a.zip): 455.11  
+Strava-DeReVanced (arm-v7a.apk): 455.11  
+Strava-DeReVanced (arm-v7a.zip): 455.11  
+Tumblr-DeReVanced (arm64-v8a.apk): 43.9.0.109  
+Tumblr-DeReVanced (arm64-v8a.zip): 43.9.0.109  
+Tumblr-DeReVanced (arm-v7a.apk): 43.9.0.109  
+Tumblr-DeReVanced (arm-v7a.zip): 43.9.0.109  
+Twitter-Piko (arm64-v8a.apk): 11.77.0-release.0  
+Twitter-Piko (arm64-v8a.zip): 11.77.0-release.0  
+Twitter-Piko (arm-v7a.apk): 11.77.0-release.0  
+Twitter-Piko (arm-v7a.zip): 11.77.0-release.0  
 
   
-Patches: AmpleReVanced/patches-1.0.0-dev.5.mpp  
-[Changelog](https://github.com/AmpleReVanced/revanced-patches/releases/tag/v1.0.0-dev.5)
+Patches: AmpleReVanced/patches-1.0.0-dev.8.mpp  
+[Changelog](https://github.com/AmpleReVanced/revanced-patches/releases/tag/v1.0.0-dev.8)
 
-Patches: anddea/patches-4.0.0.mpp  
-[Changelog](https://github.com/anddea/revanced-patches/releases/tag/v4.0.0)
+Patches: crimera/patches-3.1.0.mpp  
+[Changelog](https://github.com/crimera/piko/releases/tag/v3.1.0)
 
-Patches: brosssh/patches-2.1.0.mpp  
-[Changelog](https://github.com/brosssh/morphe-patches/releases/tag/v2.1.0)
+Patches: jkennethcarino/patches-1.0.0.mpp  
+[Changelog](https://github.com/jkennethcarino/adobo/releases/tag/v1.0.0)
 
-Patches: hoo-dles/patches-1.16.0.mpp  
-[Changelog](https://github.com/hoo-dles/morphe-patches/releases/tag/v1.16.0)
-
-Patches: MorpheApp/patches-1.22.0.mpp  
-[Changelog](https://github.com/MorpheApp/morphe-patches/releases/tag/v1.22.0)  
+Patches: RookieEnough/patches-1.0.1.mpp  
+[Changelog](https://github.com/RookieEnough/De-ReVanced/releases/tag/v1.0.1)  
 
 Skipped:  
-Patches: RookieEnough/patches-1.0.0.mpp  
-Patches: jkennethcarino/patches-0.1.0.mpp    
-Patches: Aunali321/patches-2.0.0.rvp  
-Patches: crimera/patches-3.0.0.mpp      
+Patches: hoo-dles/patches-1.16.0.mpp  
+Patches: brosssh/patches-2.1.0.mpp  
+Patches: anddea/patches-4.0.0.mpp  
+Patches: MorpheApp/patches-1.22.0.mpp  
+Patches: Aunali321/patches-2.0.0.rvp    

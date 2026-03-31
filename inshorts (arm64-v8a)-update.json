@@ -1,6 +1,6 @@
 {
-  "version": "v6.12.7 (patches 1.0.1.mpp)",
-  "versionCode": 36,
-  "zipUrl": "https://github.com/nvbangg/revanced-morphe-builder/releases/download/36/inshorts-rookieenough-module-v6.12.7-arm64-v8a.zip",
+  "version": "v6.12.8 (patches 1.0.1.mpp)",
+  "versionCode": 38,
+  "zipUrl": "https://github.com/nvbangg/revanced-morphe-builder/releases/download/38/inshorts-rookieenough-module-v6.12.8-arm64-v8a.zip",
   "changelog": "https://raw.githubusercontent.com/nvbangg/revanced-morphe-builder/update/build.md"
 }

@@ -1,6 +1,6 @@
 {
-  "version": "v6.4.0 (patches 1.17.0.mpp)",
-  "versionCode": 39,
-  "zipUrl": "https://github.com/nvbangg/revanced-morphe-builder/releases/download/39/cake-hoo-dles-module-v6.4.0-arm-v7a.zip",
+  "version": "v6.4.0 (patches 1.18.0.mpp)",
+  "versionCode": 40,
+  "zipUrl": "https://github.com/nvbangg/revanced-morphe-builder/releases/download/40/cake-hoo-dles-module-v6.4.0-arm-v7a.zip",
   "changelog": "https://raw.githubusercontent.com/nvbangg/revanced-morphe-builder/update/build.md"
 }

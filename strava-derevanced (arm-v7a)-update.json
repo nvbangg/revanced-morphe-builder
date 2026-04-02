@@ -1,6 +1,6 @@
 {
-  "version": "v455.11 (patches 1.0.1.mpp)",
-  "versionCode": 38,
-  "zipUrl": "https://github.com/nvbangg/revanced-morphe-builder/releases/download/38/strava-rookieenough-module-v455.11-arm-v7a.zip",
+  "version": "v457.13 (patches 1.0.3.mpp)",
+  "versionCode": 40,
+  "zipUrl": "https://github.com/nvbangg/revanced-morphe-builder/releases/download/40/strava-rookieenough-module-v457.13-arm-v7a.zip",
   "changelog": "https://raw.githubusercontent.com/nvbangg/revanced-morphe-builder/update/build.md"
 }

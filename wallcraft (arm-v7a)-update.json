@@ -1,6 +1,6 @@
 {
-  "version": "v3.61.01 (patches 1.17.0.mpp)",
-  "versionCode": 39,
-  "zipUrl": "https://github.com/nvbangg/revanced-morphe-builder/releases/download/39/wallcraft-hoo-dles-module-v3.61.01-arm-v7a.zip",
+  "version": "v3.61.01 (patches 1.18.0.mpp)",
+  "versionCode": 40,
+  "zipUrl": "https://github.com/nvbangg/revanced-morphe-builder/releases/download/40/wallcraft-hoo-dles-module-v3.61.01-arm-v7a.zip",
   "changelog": "https://raw.githubusercontent.com/nvbangg/revanced-morphe-builder/update/build.md"
 }

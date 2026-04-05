@@ -22,8 +22,6 @@ MyFitnessPal (arm64-v8a.apk): 25.50.0
 MyFitnessPal (arm64-v8a.zip): 25.50.0  
 MyFitnessPal (arm-v7a.apk): 25.50.0  
 MyFitnessPal (arm-v7a.zip): 25.50.0  
-Pandora (arm64-v8a.apk): 2602.1  
-Pandora (arm64-v8a.zip): 2602.1  
 Pandora (arm-v7a.apk): 2602.1  
 Pandora (arm-v7a.zip): 2602.1  
 Proton-VPN (arm64-v8a.apk): 5.16.83.0  
@@ -57,8 +55,8 @@ Windy (arm-v7a.zip): 49.0.1
 ibis-Paint-X (arm64-v8a.apk): 13.1.19  
 
   
-Patches: hoo-dles/patches-1.19.0.mpp  
-[Changelog](https://github.com/hoo-dles/morphe-patches/releases/tag/v1.19.0)  
+Patches: hoo-dles/patches-1.20.0.mpp  
+[Changelog](https://github.com/hoo-dles/morphe-patches/releases/tag/v1.20.0)  
 
 Skipped:  
 Patches: RookieEnough/patches-1.0.3.mpp  
@@ -67,4 +65,4 @@ Patches: crimera/patches-3.1.0.mpp
 Patches: brosssh/patches-2.1.0.mpp  
 Patches: anddea/patches-4.0.0.mpp  
 Patches: MorpheApp/patches-1.22.0.mpp  
-Patches: Aunali321/patches-2.0.0.rvp          
+Patches: Aunali321/patches-2.0.0.rvp            

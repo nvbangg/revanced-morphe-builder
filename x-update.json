@@ -1,6 +1,6 @@
 {
-  "version": "v11.81.0-release.0 (patches dev.5.mpp)",
-  "versionCode": 50,
-  "zipUrl": "https://github.com/nvbangg/revanced-morphe-builder/releases/download/50/x-crimera-module-v11.81.0-release.0-all.zip",
+  "version": "v11.81.0-release.0 (patches 3.2.0.mpp)",
+  "versionCode": 51,
+  "zipUrl": "https://github.com/nvbangg/revanced-morphe-builder/releases/download/51/x-crimera-module-v11.81.0-release.0-all.zip",
   "changelog": "https://raw.githubusercontent.com/nvbangg/revanced-morphe-builder/update/build.md"
 }

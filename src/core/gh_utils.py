@@ -2,12 +2,11 @@ import json
 import re
 from pathlib import Path
 
-from src.core.config import load_toml, parse_config, parse_app_entries
+from src.core.config import load_toml, parse_config, parse_app_entries, CONFIG_PATH
 from src.core.logger import abort, epr
 
 _RE_CLI_START = re.compile(r"^>.*CLI:")
 _RE_CHANGELOG_END = re.compile(r"^\[.*Changelog\]")
-CONFIG_PATH: Path = Path("config.toml")
 
 
 def get_matrix(source: str) -> None:

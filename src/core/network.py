@@ -5,7 +5,6 @@ from typing import Self
 from curl_cffi import requests
 from curl_cffi.requests import exceptions as req_exc
 
-from src.core.config import TEMP_DIR
 from src.core.logger import epr, pr
 
 
@@ -17,7 +16,6 @@ class NetworkManager:
     _locks_mutex: threading.Lock = threading.Lock()
 
     def __init__(self) -> None:
-        TEMP_DIR.mkdir(parents=True, exist_ok=True)
         self.session = requests.Session(impersonate="firefox147")
         token = os.getenv("GITHUB_TOKEN")
         self._gh_headers: dict[str, str] = {"Authorization": f"token {token}"} if token else {}

@@ -5,7 +5,7 @@ import sys
 from pathlib import Path
 
 from src.core.builder import run_build
-from src.core.config import BUILD_DIR, TEMP_DIR, VALID_ARCHES, load_toml, parse_config
+from src.core.config import BUILD_DIR, CONFIG_PATH, TEMP_DIR, VALID_ARCHES, load_toml, parse_config
 from src.core.gh_utils import combine_logs, get_matrix
 from src.core.logger import BuildAbortError, abort, epr, pr
 from src.core.network import NetworkError, NetworkManager
@@ -15,7 +15,6 @@ from src.scrapers.apkmirror import APKMirrorError
 from src.scrapers.archive import ArchiveError
 from src.scrapers.uptodown import UptodownError
 
-CONFIG_PATH: Path = Path("config.toml")
 _KNOWN_ERRORS = (NetworkError, PrebuiltsError, PatcherError, APKMirrorError, ArchiveError, UptodownError)
 
 def _load_dotenv(path: Path = Path(".env")) -> None:

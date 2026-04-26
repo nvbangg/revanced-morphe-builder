@@ -5,6 +5,7 @@ from pathlib import Path
 
 TEMP_DIR: Path = Path("temp")
 BUILD_DIR: Path = Path("build")
+CONFIG_PATH: Path = Path("config.toml")
 SOURCES: tuple[str, ...] = ("archive", "apkmirror", "uptodown")
 VALID_ARCHES: frozenset[str] = frozenset({"both", "all", "arm64-v8a", "arm-v7a", "x86_64", "x86"})
 
@@ -97,9 +98,7 @@ def _parse_bool(value: object, field: str) -> bool:
     match value:
         case bool():
             return value
-        case str() as v if v.lower() == "true":
-            return True
-        case str() as v if v.lower() == "false":
-            return False
+        case str() as v if v.lower() in ("true", "false"):
+            return v.lower() == "true"
         case _:
             raise ValueError(f"'{value}' is not a valid option for '{field}': only true or false is allowed")

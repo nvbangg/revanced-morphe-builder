@@ -82,8 +82,7 @@ def _resolve_version(entry: AppEntry, table: str, patcher: PatcherCLI, list_patc
     pr(f"Choosing version '{version}' for {table}")
     return version, force
 
-def _download_apk(entry: AppEntry, table: str, version: str, arch: str, arch_f: str, pkg_name: str, net: NetworkManager, scrapers: dict[str, BaseScraper]) -> tuple[Path, Path]:
-    version_f = version.replace(" ", "").lstrip("v")
+def _download_apk(entry: AppEntry, table: str, version: str, version_f: str, arch: str, arch_f: str, pkg_name: str, net: NetworkManager, scrapers: dict[str, BaseScraper]) -> tuple[Path, Path]:
     stock_apk = TEMP_DIR / f"{pkg_name}-{version_f}-{arch_f}.apk"
     stock_apkm = stock_apk.with_name(f"{stock_apk.name}.apkm")
 
@@ -147,7 +146,6 @@ def _apply_patch(entry: AppEntry, table: str, arch: str, arch_f: str, app_name_l
         pr(f"Building '{table}'")
         patcher.patch(stock_input, patched_apk, final_args)
 
-    BUILD_DIR.mkdir(parents=True, exist_ok=True)
     apk_output = BUILD_DIR / f"{app_name_l}-{brand_f}-v{version_f}-{arch_f}.apk"
     shutil.move(patched_apk, apk_output)
     return apk_output
@@ -165,7 +163,7 @@ def _build_single(entry: AppEntry, arch: str, table: str, net: NetworkManager, p
         arch_f = arch.replace(" ", "")
         version_f = version.replace(" ", "").lstrip("v")
         app_name_l = entry.app_name.lower().replace(" ", "-")
-        stock_apk, stock_apkm = _download_apk(entry, table, version, arch, arch_f, pkg_name, net, scrapers)
+        stock_apk, stock_apkm = _download_apk(entry, table, version, version_f, arch, arch_f, pkg_name, net, scrapers)
         _verify_sig(stock_apk, stock_apkm, pkg_name, patcher, table)
         apk_output = _apply_patch(entry, table, arch, arch_f, app_name_l, version, version_f, force, patcher, list_patches, stock_apk, stock_apkm)
         pr(f"Built {table}: '{apk_output}'")

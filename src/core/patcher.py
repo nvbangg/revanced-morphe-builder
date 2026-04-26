@@ -93,7 +93,8 @@ class PatcherCLI:
         if exclusive:
             p_args.append("--exclusive")
 
-        for auto_p in (p for p in auto_patches if p):
+        active_auto = [p for p in auto_patches if p]
+        for auto_p in active_auto:
             filtered: list[str] = []
             it = iter(range(len(p_args)))
             for i in it:
@@ -110,11 +111,10 @@ class PatcherCLI:
         if extra_args.strip():
             p_args += shlex.split(extra_args)
 
-        final_args = list(p_args)
-        for auto_p in (p for p in auto_patches if p):
-            final_args += ["-e", auto_p]
-        final_args += ["--striplibs", _arch_to_libs(arch)]
-        return final_args
+        for auto_p in active_auto:
+            p_args += ["-e", auto_p]
+        p_args += ["--striplibs", _arch_to_libs(arch)]
+        return p_args
 
     def patch(self, stock_apk: Path, output_apk: Path, patch_args: list[str]) -> None:
         base_cmd = ["-jar", self.cli_jar, "patch", stock_apk, "--purge", "-o", output_apk, "-p", self.patches_mpp]

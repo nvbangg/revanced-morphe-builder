@@ -1,6 +1,6 @@
 {
-  "version": "v2.12.0 (patches 1.11.0.mpp)",
-  "versionCode": 57,
-  "zipUrl": "https://github.com/nvbangg/morphe-builder/releases/download/57/vn-video-editor-paresh-maheshwari-module-v2.12.0-all.zip",
+  "version": "v2.12.0 (patches 1.12.0.mpp)",
+  "versionCode": 59,
+  "zipUrl": "https://github.com/nvbangg/morphe-builder/releases/download/59/vn-video-editor-paresh-maheshwari-module-v2.12.0-all.zip",
   "changelog": "https://raw.githubusercontent.com/nvbangg/morphe-builder/update/build.md"
 }

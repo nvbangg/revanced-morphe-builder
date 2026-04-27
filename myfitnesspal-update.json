@@ -1,6 +1,6 @@
 {
-  "version": "v25.50.0 (patches 1.27.0.mpp)",
-  "versionCode": 58,
-  "zipUrl": "https://github.com/nvbangg/morphe-builder/releases/download/58/myfitnesspal-hoo-dles-module-v25.50.0-all.zip",
+  "version": "v25.50.0 (patches 1.28.0.mpp)",
+  "versionCode": 60,
+  "zipUrl": "https://github.com/nvbangg/morphe-builder/releases/download/60/myfitnesspal-hoo-dles-module-v25.50.0-all.zip",
   "changelog": "https://raw.githubusercontent.com/nvbangg/morphe-builder/update/build.md"
 }

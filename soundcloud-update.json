@@ -1,6 +1,6 @@
 {
-  "version": "v2026.03.20-release (patches 1.27.0.mpp)",
-  "versionCode": 58,
-  "zipUrl": "https://github.com/nvbangg/morphe-builder/releases/download/58/soundcloud-hoo-dles-module-v2026.03.20-release-all.zip",
+  "version": "v2026.03.20-release (patches 1.28.0.mpp)",
+  "versionCode": 60,
+  "zipUrl": "https://github.com/nvbangg/morphe-builder/releases/download/60/soundcloud-hoo-dles-module-v2026.03.20-release-all.zip",
   "changelog": "https://raw.githubusercontent.com/nvbangg/morphe-builder/update/build.md"
 }

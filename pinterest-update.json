@@ -1,6 +1,6 @@
 {
-  "version": "v14.11.0 (patches 1.3.0.mpp)",
-  "versionCode": 55,
-  "zipUrl": "https://github.com/nvbangg/morphe-builder/releases/download/55/pinterest-binarymend-module-v14.11.0-all.zip",
+  "version": "v14.11.0 (patches 1.3.1.mpp)",
+  "versionCode": 60,
+  "zipUrl": "https://github.com/nvbangg/morphe-builder/releases/download/60/pinterest-binarymend-module-v14.11.0-all.zip",
   "changelog": "https://raw.githubusercontent.com/nvbangg/morphe-builder/update/build.md"
 }

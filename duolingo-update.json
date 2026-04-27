@@ -1,6 +1,6 @@
 {
-  "version": "v6.74.4 (patches 1.27.0.mpp)",
-  "versionCode": 58,
-  "zipUrl": "https://github.com/nvbangg/morphe-builder/releases/download/58/duolingo-hoo-dles-module-v6.74.4-all.zip",
+  "version": "v6.74.4 (patches 1.28.0.mpp)",
+  "versionCode": 60,
+  "zipUrl": "https://github.com/nvbangg/morphe-builder/releases/download/60/duolingo-hoo-dles-module-v6.74.4-all.zip",
   "changelog": "https://raw.githubusercontent.com/nvbangg/morphe-builder/update/build.md"
 }

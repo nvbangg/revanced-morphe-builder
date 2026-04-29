@@ -1,6 +1,6 @@
 {
-  "version": "v12.6.4 (patches 1.12.0.mpp)",
-  "versionCode": 59,
-  "zipUrl": "https://github.com/nvbangg/morphe-builder/releases/download/59/telegram-paresh-maheshwari-module-v12.6.4-all.zip",
+  "version": "v12.6.4 (patches 1.14.0.mpp)",
+  "versionCode": 61,
+  "zipUrl": "https://github.com/nvbangg/morphe-builder/releases/download/61/telegram-paresh-maheshwari-module-v12.6.4-all.zip",
   "changelog": "https://raw.githubusercontent.com/nvbangg/morphe-builder/update/build.md"
 }

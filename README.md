@@ -87,7 +87,7 @@ Here you can download and use applications selected for this repository, which a
 
 🧩 RookieEnough: <a href="https://nvbangg.github.io/awesome-for-morphe/?source=rookieenough&app=com.facebook.katana">View Details</a>
 
-<a href="https://github.com/nvbangg/builder-for-morphe/releases/download/48/facebook-rookieenough-v490.0.0.63.82-arm64-v8a.apk"><img src="https://img.shields.io/badge/Facebook-Download-gray?labelColor=1877F2&logo=Facebook&logoColor=white" alt="Facebook Download"></a> <a href="https://apps.obtainium.imranr.dev/redirect?r=obtainium://app/%7B%22id%22%3A%22com.facebook.katana%22%2C%22name%22%3A%22Facebook%22%2C%22author%22%3A%22nvbangg%22%2C%22url%22%3A%22https%3A%2F%2Fgithub.com%2Fnvbangg%2Fbuilder-for-morphe%22%2C%22additionalSettings%22%3A%22%7B%5C%22apkFilterRegEx%5C%22%3A%5C%22facebook%5C%22%7D%22%7D"><img src="https://img.shields.io/badge/Add_to-Obtainium-4500FF?logo=obtainium" alt="Add to Obtainium"></a>
+<a href="https://github.com/nvbangg/builder-for-morphe/releases?q=Facebook&expanded=true"><img src="https://img.shields.io/badge/Facebook-Download-gray?labelColor=1877F2&logo=Facebook&logoColor=white" alt="Facebook Download"></a> <a href="https://apps.obtainium.imranr.dev/redirect?r=obtainium://app/%7B%22id%22%3A%22com.facebook.katana%22%2C%22name%22%3A%22Facebook%22%2C%22author%22%3A%22nvbangg%22%2C%22url%22%3A%22https%3A%2F%2Fgithub.com%2Fnvbangg%2Fbuilder-for-morphe%22%2C%22additionalSettings%22%3A%22%7B%5C%22apkFilterRegEx%5C%22%3A%5C%22facebook%5C%22%7D%22%7D"><img src="https://img.shields.io/badge/Add_to-Obtainium-4500FF?logo=obtainium" alt="Add to Obtainium"></a>
 
 ---
 <h3 id="instagram"><a href="https://play.google.com/store/apps/details?id=com.instagram.android">Instagram</a></h3>

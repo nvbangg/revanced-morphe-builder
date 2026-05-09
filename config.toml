@@ -15,12 +15,13 @@ apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/photos/"
 uptodown-dlurl = "https://google-photos.en.uptodown.com/android"
 version = "7.74.0.910345644"
 
-# [Facebook]
-# patches-source = "RookieEnough/De-ReVanced"
-# brand = "rookie-enough"
-# apkmirror-dlurl = "https://www.apkmirror.com/apk/facebook-2/facebook/"
-# uptodown-durl = "https://facebook.en.uptodown.com/android"
-# version = "490.0.0.63.82"
+[Facebook]
+patches-source = "RookieEnough/De-ReVanced"
+brand = "rookie-enough"
+archive-dlurl = "https://archive.org/download/nvbangg-apks/com.facebook.katana/"
+apkmirror-dlurl = "https://www.apkmirror.com/apk/facebook-2/facebook/"
+uptodown-durl = "https://facebook.en.uptodown.com/android"
+arch = "both"
 
 [Instagram]
 patches-source = "crimera/piko"

@@ -1,12 +1,11 @@
+# [nvbangg/builder-for-morphe](https://github.com/nvbangg/builder-for-morphe)
 <div align="center">
 <a href="#-features"><img src="https://readme-typing-svg.demolab.com/?font=Google+Sans&size=25&pause=1000&color=4500FF&center=true&vCenter=true&random=false&width=550&lines=%F0%9F%93%A6+Pre-built+APKs+from+various+patch+sources"></a>
 
-[![Build Status](https://img.shields.io/github/actions/workflow/status/krvstek/uni-apks/build.yml?style=flat-square&logo=githubactions&logoColor=%23FFFFFF&label=Build%20Status&color=%234500FF)](https://github.com/krvstek/uni-apks/actions/workflows/build.yml)   [![Python 3.13](https://img.shields.io/badge/Python-3.13+-4500FF?style=flat-square&logo=python&logoColor=%23FFFFFF)](https://www.python.org/downloads/)   [![Built with uv](https://img.shields.io/badge/Built%20with-uv-4500FF?style=flat-square&logo=uv&logoColor=%23FFFFFF)](https://github.com/astral-sh/uv)
-<br>
-[![Release](https://img.shields.io/github/release-date/krvstek/uni-apks?display_date=created_at&style=flat-square&logo=android&logoColor=%23FFFFFF&label=Release&color=%234500FF)](https://github.com/krvstek/uni-apks/releases/latest)   [![Downloads](https://img.shields.io/github/downloads/krvstek/uni-apks/total?style=flat-square&logo=simpleanalytics&logoColor=%23FFFFFF&label=Downloads&color=%234500FF)](https://github.com/krvstek/uni-apks#-list-of-apps-in-this-repository)   [![Views](https://hitscounter.dev/api/hit?url=https%3A%2F%2Fgithub.com%2Fkrvstek%2Funi-apks&label=Views&icon=eye-fill&color=%234500ff&message=&style=flat-square&tz=Europe%2FWarsaw)](https://github.com/krvstek/uni-apks#-list-of-apps-in-this-repository)
-<br>
-
 Here you will find a step-by-step technical guide on how to set up your environment, run the patching script, customize the build configuration, and contribute to the project's development.
+
+[![CI](https://img.shields.io/github/actions/workflow/status/nvbangg/builder-for-morphe/ci.yml?label=CI&logo=githubactions&logoColor=white)](https://github.com/nvbangg/builder-for-morphe/actions/workflows/ci.yml)　[![Releases](https://img.shields.io/github/downloads/nvbangg/builder-for-morphe/total?logo=data:image/svg+xml;base64,PHN2ZyBmaWxsPSIjZmZmZmZmIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0Ij48cGF0aCBkPSJNNSAyMGgxNHYtMkg1djJ6TTE5IDloLTRWM0g5djZINWw3IDcgNy03eiIvPjwvc3ZnPg==&label=Downloads)](https://github.com/nvbangg/builder-for-morphe/releases)　[![Stars](https://img.shields.io/github/stars/nvbangg/builder-for-morphe?label=Star%20this%20repo%20if%20useful%20⭐&logo=github)](https://github.com/nvbangg/builder-for-morphe)　[![Sponsor](https://img.shields.io/badge/Support-pink?style=social&logo=github-sponsors)](https://github.com/sponsors/nvbangg)　[![Related Repo](https://img.shields.io/badge/%F0%9F%94%97%20Related%20Repo-awesome--for--morphe-blue)](https://github.com/nvbangg/awesome-for-morphe)
+
 </div>
 
 ## 📦 Setting up environment
@@ -22,8 +21,8 @@ Here you will find a step-by-step technical guide on how to set up your environm
 2. 📥 **Installation**:
 
 ```bash
-git clone --depth 1 https://github.com/krvstek/uni-apks.git
-cd uni-apks
+git clone --depth 1 https://github.com/nvbangg/builder-for-morphe.git
+cd builder-for-morphe
 ```
 
 No further setup needed - `uv` handles the Python environment and dependencies automatically.
@@ -99,11 +98,11 @@ If no keystore is configured, `morphe.keystore` is used as a fallback if it exis
 
 1. 🐞 **Bug reports**:
 
-For bugs in the **build script itself**, use the [Script Bug Report](https://github.com/krvstek/uni-apks/issues/new?template=script.yml) template. For bugs in **patched applications**, use the [Build Result Bug Report](https://github.com/krvstek/uni-apks/issues/new?template=build.yml) template.
+For bugs in the **build script itself**, use the [Script Bug Report](https://github.com/nvbangg/builder-for-morphe/issues/new?template=script.yml) template. For bugs in **patched applications**, use the [Build Result Bug Report](https://github.com/nvbangg/builder-for-morphe/issues/new?template=build.yml) template.
 
 2. **💡 Suggestions**:
 
-Feature ideas belong in the [Discussions](https://github.com/krvstek/uni-apks/discussions) tab - this keeps the issue tracker focused on bugs.
+Feature ideas or suggestions belong in the [Blank Issue](https://github.com/nvbangg/builder-for-morphe/issues/new) tab - please use the blank issue option.
 
 3. **🛠️ Pull Requests**:
 
@@ -111,4 +110,4 @@ Pull requests are welcome. AI-assisted contributions are accepted, but all chang
 
 ---
 
-<p align="center"><i>Maintained with ❤️ by <a href="https://github.com/krvstek">krvstek</a></i></p>
+<p align="center"><i>Maintained with ❤️ by <a href="https://github.com/krvstek">krvstek</a> and <a href="https://github.com/nvbangg">nvbangg</a></i></p>

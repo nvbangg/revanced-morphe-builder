@@ -10,9 +10,9 @@ body:
 
         - Speak English only.
         - This template is for bugs in the **build script** (e.g. crashes, download failures, patching errors).
-        - For bugs in **patched applications**, use the [Build Result Bug Report](https://github.com/krvstek/uni-apks/issues/new?template=build.yml) template instead.
+        - For bugs in **patched applications**, use the [Build Result Bug Report](https://github.com/nvbangg/builder-for-morphe/issues/new?template=build.yml) template instead.
         - Do not submit a duplicate bug report.
-        - If you have a **Question** or a **Suggestion**, please go to [Discussions](https://github.com/krvstek/uni-apks/discussions) instead.
+        - If you have a **Question** or a **Suggestion**, please go to [Blank Issue](https://github.com/nvbangg/builder-for-morphe/issues/new) instead.
 
   - type: textarea
     id: description
@@ -47,11 +47,11 @@ body:
         By submitting this issue, you confirm that you have performed the following steps.
         If any of the boxes below are left unchecked, or if your confirmation is found to be false, your issue will be **automatically closed and rejected** without further notice.
       options:
-        - label: I have searched both [Issues](https://github.com/krvstek/uni-apks/issues) and [Discussions](https://github.com/krvstek/uni-apks/discussions) and did not find a similar report.
+        - label: I have searched [Issues](https://github.com/nvbangg/builder-for-morphe/issues) and did not find a similar report.
           required: true
         - label: I confirm this is a bug in the build script, and NOT a bug in the patched application or patches source.
           required: true
         - label: I have verified that my `config.toml` is valid.
           required: true
-        - label: I understand that feature requests, "how-to" questions, and general help belong in [Discussions](https://github.com/krvstek/uni-apks/discussions).
+        - label: I understand that feature requests, "how-to" questions, and general help belong in [Blank Issue](https://github.com/nvbangg/builder-for-morphe/issues/new).
           required: true

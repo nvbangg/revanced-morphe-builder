@@ -193,6 +193,7 @@ This repository was generated from the [krvstek/uni-apks](https://github.com/krv
 - Immutable release support
 - UI and configuration improvements
 - Direct download links in release notes (contributed upstream in [PR #42](https://github.com/krvstek/uni-apks/pull/42))
+- Refactor CI to automatically discover build sources (partially contributed upstream in [PR #43](https://github.com/krvstek/uni-apks/pull/43))
 
 ---
 ## <a id="disclaimer"></a> ⚠️ Disclaimer 

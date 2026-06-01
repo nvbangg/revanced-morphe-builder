@@ -151,11 +151,70 @@ patches-source = "RookieEnough/De-Vanced"
 brand = "de-vanced"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/viber-media-s-a-r-l/viber/"
 
+# https://adguard.com/en/adguard-android/overview.html
+# com.adguard.android
+[AdGuard]
+patches-source = "hoo-dles/morphe-patches"
+brand = "hoo-dles"
+apkmirror-dlurl = "https://www.apkmirror.com/apk/adguard-software-limited/adguard/"
+uptodown-dlurl = "https://adguard-for-android.en.uptodown.com/android"
+
+# https://play.google.com/store/apps/details?id=com.busuu.android.enc
+[Busuu]
+patches-source = "hoo-dles/morphe-patches"
+brand = "hoo-dles"
+apkmirror-dlurl = "https://www.apkmirror.com/apk/busuu/busuu-learn-languages/"
+uptodown-dlurl = "https://busuu.en.uptodown.com/android"
+version = "32.30.0(1575420)"
+
+# https://play.google.com/store/apps/details?id=com.intsig.camscanner
+[CamScanner]
+patches-source = "hoo-dles/morphe-patches"
+brand = "hoo-dles"
+apkmirror-dlurl = "https://www.apkmirror.com/apk/intsig-information-co-ltd/camscanner-phone-pdf-creator/"
+uptodown-dlurl = "https://camscanner.en.uptodown.com/android"
+
 [Duolingo]
 patches-source = "hoo-dles/morphe-patches"
 brand = "hoo-dles"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/duolingo/duolingo-duolingo/"
 uptodown-dlurl = "https://duolingo.en.uptodown.com/android"
+
+# https://play.google.com/store/apps/details?id=com.mobilefootie.wc2010
+[FotMob]
+patches-source = "hoo-dles/morphe-patches"
+brand = "hoo-dles"
+apkmirror-dlurl = "https://www.apkmirror.com/apk/fotmob-as/fotmob-live-soccer-scores/"
+uptodown-dlurl = "https://soccer-scores.en.uptodown.com/android"
+
+# https://play.google.com/store/apps/details?id=jp.ne.ibis.ibispaintx.app
+[ibis-Paint-X]
+patches-source = "hoo-dles/morphe-patches"
+brand = "hoo-dles"
+uptodown-dlurl = "https://ibispaint-x.en.uptodown.com/android"
+
+# https://play.google.com/store/apps/details?id=com.merriamwebster
+[Merriam-Webster]
+patches-source = "hoo-dles/morphe-patches"
+brand = "hoo-dles"
+apkmirror-dlurl = "https://www.apkmirror.com/apk/merriam-webster-inc/dictionary-merriam-webster/"
+uptodown-dlurl = "https://merriam-webster.en.uptodown.com/android"
+version = "5.5.3"
+
+# https://play.google.com/store/apps/details?id=com.myfitnesspal.android
+[MyFitnessPal]
+patches-source = "hoo-dles/morphe-patches"
+brand = "hoo-dles"
+apkmirror-dlurl = "https://www.apkmirror.com/apk/myfitnesspal-inc/calorie-counter-myfitnesspal/"
+uptodown-dlurl = "https://calorie-counter-myfitnesspal.en.uptodown.com/android"
+
+# https://play.google.com/store/apps/details?id=com.teslacoilsw.launcher
+[Nova-Launcher]
+patches-source = "hoo-dles/morphe-patches"
+brand = "hoo-dles"
+apkmirror-dlurl = "https://www.apkmirror.com/apk/teslacoil-software/nova-launcher/"
+uptodown-dlurl = "https://nova-launcher.en.uptodown.com/android"
+version = "81042 (8.5.1)"
 
 [Pandora]
 patches-source = "hoo-dles/morphe-patches"
@@ -170,17 +229,52 @@ uptodown-dlurl = "https://amazon-video.en.uptodown.com/android"
 arch = "arm64-v8a"
 version = "3.0.452"
 
+# https://play.google.com/store/apps/details?id=ginlemon.flowerfree
+[Smart-Launcher-6]
+patches-source = "hoo-dles/morphe-patches"
+brand = "hoo-dles"
+apkmirror-dlurl = "https://www.apkmirror.com/apk/smart-launcher-team/smart-launcher/"
+uptodown-dlurl = "https://smart-launcher.en.uptodown.com/android"
+
+# https://play.google.com/store/apps/details?id=com.sofascore.results
+[Sofascore]
+patches-source = "hoo-dles/morphe-patches"
+brand = "hoo-dles"
+apkmirror-dlurl = "https://www.apkmirror.com/apk/sofascore/"
+uptodown-dlurl = "https://sofascore.en.uptodown.com/android"
+
 [SoundCloud]
 patches-source = "hoo-dles/morphe-patches"
 brand = "hoo-dles"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/soundcloud/soundcloud-soundcloud/"
 uptodown-dlurl = "https://soundcloud.en.uptodown.com/android"
 
+# https://play.google.com/store/apps/details?id=com.wallpaperscraft.wallpaper
+[Wallcraft]
+patches-source = "hoo-dles/morphe-patches"
+brand = "hoo-dles"
+apkmirror-dlurl = "https://www.apkmirror.com/apk/nebuchadnezzar-doo/wallpapers-hd-4k-backgrounds/"
+uptodown-dlurl = "https://wallpaperscraft.en.uptodown.com/android"
+
+# https://play.google.com/store/apps/details?id=com.windyty.android
+[Windy]
+patches-source = "hoo-dles/morphe-patches"
+brand = "hoo-dles"
+apkmirror-dlurl = "https://www.apkmirror.com/apk/windyty-se/windy-wind-waves-and-hurricanes-forecast/"
+uptodown-dlurl = "https://windy-wind-waves-and-hurricanes-forecast.en.uptodown.com/android"
+
 [WPS-Office]
 patches-source = "hoo-dles/morphe-patches"
 brand = "hoo-dles"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/wps-software-pte-ltd/wps-office-pdf/"
 uptodown-dlurl = "https://wps-office.en.uptodown.com/android"
+
+# https://play.google.com/store/apps/details?id=videoeditor.videorecorder.screenrecorder
+[XRecorder]
+patches-source = "hoo-dles/morphe-patches"
+brand = "hoo-dles"
+apkmirror-dlurl = "https://www.apkmirror.com/apk/inshot-inc-2/screen-recorder-video-recorder-xrecorder/"
+uptodown-dlurl = "https://videoeditor-videorecorder-screenrecorder.en.uptodown.com/android"
 
 [KakaoTalk]
 patches-source = "AmpleReVanced/revanced-patches"

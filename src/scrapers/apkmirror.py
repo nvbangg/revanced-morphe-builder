@@ -77,7 +77,7 @@ class APKMirrorScraper(BaseScraper):
         return None
 
     def _search(self, rows: list, dpi: str, arch: str, bundle_type: str) -> str:
-        apparch = {"universal", "noarch", "arm64-v8a + armeabi-v7a"}
+        apparch = {"universal", "noarch", "arm64-v8a + armeabi-v7a", "arm64-v8a + armeabi"}
         if arch != "all":
             apparch.add(arch)
 

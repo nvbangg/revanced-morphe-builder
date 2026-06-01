@@ -13,13 +13,21 @@ arch = "both"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/redditinc/reddit"
 uptodown-dlurl = "https://reddit-official-app.en.uptodown.com/android"
 
-[Instagram]
-patches-source = "crimera/piko"
-brand = "piko"
-github-dlurl = "https://github.com/krvstek/uni-storage/releases/tag/instagram"
-# apkmirror-dlurl = "https://www.apkmirror.com/apk/instagram/instagram-instagram"
-# uptodown-dlurl = "https://instagram.en.uptodown.com/android"
-arch = "arm64-v8a"
+[YouTube-Experimental]
+apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube"
+uptodown-dlurl = "https://youtube.en.uptodown.com/android"
+version = "21.21.80"
+
+[YT-Music-Experimental]
+apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube-music"
+uptodown-dlurl = "https://youtube-music.en.uptodown.com/android"
+arch = "both"
+version = "9.21.51"
+
+[Reddit-Experimental]
+apkmirror-dlurl = "https://www.apkmirror.com/apk/redditinc/reddit"
+uptodown-dlurl = "https://reddit-official-app.en.uptodown.com/android"
+version = "2026.21.0"
 
 [X-Twitter]
 patches-source = "crimera/piko"
@@ -29,12 +37,34 @@ github-dlurl = "https://github.com/krvstek/uni-storage/releases/tag/x-twitter"
 # uptodown-dlurl = "https://twitter.en.uptodown.com/android"
 skip-sigcheck = true
 
-[Google-Photos]
+[Instagram]
+patches-source = "crimera/piko"
+brand = "piko"
+github-dlurl = "https://github.com/krvstek/uni-storage/releases/tag/instagram"
+# apkmirror-dlurl = "https://www.apkmirror.com/apk/instagram/instagram-instagram"
+# uptodown-dlurl = "https://instagram.en.uptodown.com/android"
+arch = "arm64-v8a"
+
+# https://play.google.com/store/apps/details?id=com.amazon.mp3
+[Amazon-Music]
 patches-source = "RookieEnough/De-Vanced"
 brand = "de-vanced"
-apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/photos/"
-uptodown-dlurl = "https://google-photos.en.uptodown.com/android"
-version = "7.74.0.910345644"
+apkmirror-dlurl = "https://www.apkmirror.com/apk/amazon-mobile-llc/amazon-music-discover-songs/"
+uptodown-dlurl = "https://amazon-mp3.en.uptodown.com/android"
+version = "26.14.2"
+
+[Cricbuzz]
+patches-source = "RookieEnough/De-Vanced"
+brand = "de-vanced"
+apkmirror-dlurl = "https://www.apkmirror.com/apk/cricbuzz-com/cricbuzz-live-cricket-scores-news/"
+uptodown-dlurl = "https://cricbuzz-cricket-scores-and-news.en.uptodown.com/android"
+
+[Disney-Plus]
+patches-source = "RookieEnough/De-Vanced"
+brand = "de-vanced"
+apkmirror-dlurl = "https://www.apkmirror.com/apk/disney/disney/"
+uptodown-dlurl = "https://disney-disneyplus.en.uptodown.com/android"
+version = "26.6.0+rc5-2026.04.21"
 
 [Facebook]
 patches-source = "RookieEnough/De-Vanced"
@@ -44,23 +74,80 @@ apkmirror-dlurl = "https://www.apkmirror.com/apk/facebook-2/facebook/"
 uptodown-durl = "https://facebook.en.uptodown.com/android"
 arch = "both"
 
+[Google-News]
+patches-source = "RookieEnough/De-Vanced"
+brand = "de-vanced"
+apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/google-news/"
+uptodown-dlurl = "https://google-play-newsstand.en.uptodown.com/android"
+
+[Google-Photos]
+patches-source = "RookieEnough/De-Vanced"
+brand = "de-vanced"
+apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/photos/"
+uptodown-dlurl = "https://google-photos.en.uptodown.com/android"
+version = "7.74.0.910345644"
+
+# https://play.google.com/store/apps/details?id=com.google.android.apps.recorder
+[Google-Recorder]
+patches-source = "RookieEnough/De-Vanced"
+brand = "de-vanced"
+apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/google-recorder/"
+uptodown-dlurl = "https://opnemer.en.uptodown.com/android"
+arch = "arm64-v8a"
+version = "4.2.20260521.920830288"
+
+# https://play.google.com/store/apps/details?id=com.peacocktv.peacockandroid
+[Peacock-TV]
+patches-source = "RookieEnough/De-Vanced"
+brand = "de-vanced"
+apkmirror-dlurl = "https://www.apkmirror.com/apk/peacock-tv-llc/peacock-tv/"
+uptodown-dlurl = "https://peacock-tv.en.uptodown.com/android"
+version = "7.5.21"
+
+# https://play.google.com/store/apps/details?id=com.microblink.photomath
+[Photomath]
+patches-source = "RookieEnough/De-Vanced"
+brand = "de-vanced"
+apkmirror-dlurl = "https://www.apkmirror.com/apk/google-llc/photomath/"
+uptodown-dlurl = "https://photomath.en.uptodown.com/android"
+version = "8.47.1"
+
+# https://play.google.com/store/apps/details?id=ch.protonmail.android
+[Proton-Mail]
+patches-source = "RookieEnough/De-Vanced"
+brand = "de-vanced"
+apkmirror-dlurl = "https://www.apkmirror.com/apk/proton-ag/protonmail/"
+uptodown-dlurl = "https://protonmail.en.uptodown.com/android"
+
+# https://play.google.com/store/apps/details?id=com.strava
+[Strava]
+patches-source = "RookieEnough/De-Vanced"
+brand = "de-vanced"
+apkmirror-dlurl = "https://www.apkmirror.com/apk/strava-inc/strava-running-and-cycling-gps/"
+uptodown-dlurl = "https://strava.en.uptodown.com/android"
+
+# https://play.google.com/store/apps/details?id=com.instagram.barcelona
+[Threads]
+patches-source = "RookieEnough/De-Vanced"
+brand = "de-vanced"
+github-dlurl = "https://github.com/ngbangg/builder-for-morphe/releases/tag/com.instagram.barcelona"
+# apkmirror-dlurl = "https://www.apkmirror.com/apk/instagram/threads-an-instagram-app/"
+# uptodown-dlurl = "https://threads.en.uptodown.com/android"
+arch = "both"
+
 [TikTok]
 patches-source = "RookieEnough/De-Vanced"
 brand = "de-vanced"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/tiktok-pte-ltd/tik-tok-including-musical-ly/"
 uptodown-dlurl = "https://tiktok.en.uptodown.com/android"
 
-[Disney-Plus]
+# https://play.google.com/store/apps/details?id=com.tumblr
+[Tumblr]
 patches-source = "RookieEnough/De-Vanced"
 brand = "de-vanced"
-apkmirror-dlurl = "https://www.apkmirror.com/apk/disney/disney/"
-uptodown-dlurl = "https://disney-disneyplus.en.uptodown.com/android"
-version = "26.6.0+rc5-2026.04.21"
-
-[Viber]
-patches-source = "RookieEnough/De-Vanced"
-brand = "de-vanced"
-apkmirror-dlurl = "https://www.apkmirror.com/apk/viber-media-s-a-r-l/viber/"
+apkmirror-dlurl = "https://www.apkmirror.com/apk/tumblr-inc/tumblr/"
+uptodown-dlurl = "https://tumblr.en.uptodown.com/android"
+version = "44.7.0.110"
 
 [Twitch]
 patches-source = "RookieEnough/De-Vanced"
@@ -68,25 +155,11 @@ brand = "de-vanced"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/twitch-interactive-inc/twitch/"
 uptodown-dlurl = "https://twitch.en.uptodown.com/android"
 
-[Cricbuzz]
+[Viber]
 patches-source = "RookieEnough/De-Vanced"
 brand = "de-vanced"
-apkmirror-dlurl = "https://www.apkmirror.com/apk/cricbuzz-com/cricbuzz-live-cricket-scores-news/"
-uptodown-dlurl = "https://cricbuzz-cricket-scores-and-news.en.uptodown.com/android"
+apkmirror-dlurl = "https://www.apkmirror.com/apk/viber-media-s-a-r-l/viber/"
 
-[Prime-Video]
-patches-source = "hoo-dles/morphe-patches"
-brand = "hoo-dles"
-apkmirror-dlurl = "https://www.apkmirror.com/apk/amazon-mobile-llc/amazon-prime-video/"
-uptodown-dlurl = "https://amazon-video.en.uptodown.com/android"
-arch = "arm64-v8a"
-version = "3.0.452"
-
-[WPS-Office]
-patches-source = "hoo-dles/morphe-patches"
-brand = "hoo-dles"
-apkmirror-dlurl = "https://www.apkmirror.com/apk/wps-software-pte-ltd/wps-office-pdf/"
-uptodown-dlurl = "https://wps-office.en.uptodown.com/android"
 
 [Duolingo]
 patches-source = "hoo-dles/morphe-patches"
@@ -99,11 +172,25 @@ patches-source = "hoo-dles/morphe-patches"
 brand = "hoo-dles"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/pandora/pandora-music-podcasts/"
 
+[Prime-Video]
+patches-source = "hoo-dles/morphe-patches"
+brand = "hoo-dles"
+apkmirror-dlurl = "https://www.apkmirror.com/apk/amazon-mobile-llc/amazon-prime-video/"
+uptodown-dlurl = "https://amazon-video.en.uptodown.com/android"
+arch = "arm64-v8a"
+version = "3.0.452"
+
 [SoundCloud]
 patches-source = "hoo-dles/morphe-patches"
 brand = "hoo-dles"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/soundcloud/soundcloud-soundcloud/"
 uptodown-dlurl = "https://soundcloud.en.uptodown.com/android"
+
+[WPS-Office]
+patches-source = "hoo-dles/morphe-patches"
+brand = "hoo-dles"
+apkmirror-dlurl = "https://www.apkmirror.com/apk/wps-software-pte-ltd/wps-office-pdf/"
+uptodown-dlurl = "https://wps-office.en.uptodown.com/android"
 
 [KakaoTalk]
 patches-source = "AmpleReVanced/revanced-patches"
